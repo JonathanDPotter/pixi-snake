@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.buttons {
+  position: absolute;
+  top: 60vh;
+  width: 80vw;
+  display: flex;
+  justify-content: space-around;
+
+  .btn {
+    background-color: #717744;
+    padding: 1rem;
+    font-size: 2rem;
+  }
+}
+
+.hidden {
+  display: none;
+}
