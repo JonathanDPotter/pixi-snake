@@ -7,7 +7,7 @@ import { GRID_SIZE, outsideGrid } from "./utils/grid";
 import drawMenu from "./utils/drawMenu";
 import drawGame from "./utils/drawGame";
 import drawGameOver from "./utils/drawGameOver";
-import Buttons from "./buttons";
+import Buttons from "./Buttons";
 
 export interface Coords {
   y: number;

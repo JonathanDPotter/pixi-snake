@@ -12,14 +12,14 @@ body {
 
 .buttons {
   position: absolute;
-  top: 60vh;
-  width: 80vw;
+  top: 60vmin;
+  width: 80vmin;
   display: flex;
   justify-content: space-around;
 
   .btn {
     background-color: #717744;
-    padding: 1rem;
+    padding: 1vmin;
     font-size: 2rem;
   }
 }
